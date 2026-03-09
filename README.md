@@ -1,7 +1,9 @@
 # Real-Time Chat Application
 
 A full-stack real-time chat application built with Node.js, React, WebSockets, and MySQL - containerized with Docker.
-<img width="500" height="517" alt="image" src="https://github.com/user-attachments/assets/a8831422-99c2-4aa3-987f-030584fdbf5f" />
+
+<img width="500" height="794" alt="image" src="https://github.com/user-attachments/assets/38166cdb-249b-4e23-8d4d-54fcbc8f6ed9" />
+
 <img width="500" height="793" alt="image" src="https://github.com/user-attachments/assets/2e2fba8b-304e-4166-b57d-ff8597688284" />
 
 
