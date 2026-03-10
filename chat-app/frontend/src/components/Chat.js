@@ -1,5 +1,4 @@
-const API = process.env.REACT_APP_API_URL || 'http://localhost:5001'
-const WS_URL = process.env.REACT_APP_WS_URL || 'ws://localhost:5001'import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import axios from 'axios'
 
 const API = process.env.REACT_APP_API_URL || 'http://localhost:5001'
