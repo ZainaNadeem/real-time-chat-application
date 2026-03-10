@@ -6,11 +6,16 @@ A full-stack real-time chat application built with Node.js, React, WebSockets, a
 
 <img width="500" height="793" alt="image" src="https://github.com/user-attachments/assets/2e2fba8b-304e-4166-b57d-ff8597688284" />
 
+## Live Demo
+
+- **Frontend:** https://real-time-chat-application-frontend-production.up.railway.app
+- **Backend API:** https://real-time-chat-application-production-4e35.up.railway.app
+- **WebSocket URL:** wss://real-time-chat-application-production-4e35.up.railway.app
 
 ## Features
 
-- Real-time messaging using WebSockets — messages appear instantly with no page refresh
-- Persistent message history stored in MySQL — messages survive server restarts
+- Real-time messaging using WebSockets - messages appear instantly with no page refresh
+- Persistent message history stored in MySQL - messages survive server restarts
 - User registration and login with JWT authentication and bcrypt password hashing
 - Create and join multiple chat rooms
 - Typing indicators — see when other users are typing in real time
@@ -28,15 +33,15 @@ A full-stack real-time chat application built with Node.js, React, WebSockets, a
 
 ## Project Structure
 
-- **backend/src/server.js** — Express app entry point, creates the HTTP server shared with WebSockets
-- **backend/src/db.js** — MySQL connection pool using mysql2
-- **backend/src/websocket.js** — WebSocket server handling auth, room joining, messaging, and typing indicators
-- **backend/src/routes/auth.js** — Register and login endpoints with JWT token generation
-- **backend/src/routes/rooms.js** — Endpoints to create and list chat rooms, protected by auth middleware
-- **backend/docker-compose.yml** — Runs MySQL 8 in a Docker container with persistent volume storage
-- **frontend/src/App.js** — Root component managing login state and routing between Auth and Chat views
-- **frontend/src/components/Auth.js** — Login and registration form with error handling
-- **frontend/src/components/Chat.js** — Main chat UI with sidebar, room list, message history, typing indicators, and WebSocket connection management
+- **backend/src/server.js** - Express app entry point, creates the HTTP server shared with WebSockets
+- **backend/src/db.js** - MySQL connection pool using mysql2
+- **backend/src/websocket.js** - WebSocket server handling auth, room joining, messaging, and typing indicators
+- **backend/src/routes/auth.js** - Register and login endpoints with JWT token generation
+- **backend/src/routes/rooms.js** - Endpoints to create and list chat rooms, protected by auth middleware
+- **backend/docker-compose.yml** - Runs MySQL 8 in a Docker container with persistent volume storage
+- **frontend/src/App.js** - Root component managing login state and routing between Auth and Chat views
+- **frontend/src/components/Auth.js** - Login and registration form with error handling
+- **frontend/src/components/Chat.js** - Main chat UI with sidebar, room list, message history, typing indicators, and WebSocket connection management
 
 ## Usage
 
